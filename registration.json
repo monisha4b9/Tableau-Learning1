@@ -1,0 +1,27 @@
+{
+    
+"first_name" : "{{cfg.registration.first_name}}",
+    
+"last_name" : "{{cfg.registration.last_name}}",
+    
+"email" : "{{cfg.registration.email}}",
+    
+"company" : "{{cfg.registration.company}}",
+    
+"title" : "{{cfg.registration.title}}",
+    
+"department" : "{{cfg.registration.department}}",
+    
+"industry" : "{{cfg.registration.industry}}",
+    
+"phone" : "{{cfg.registration.phone}}",
+    
+"city" : "{{cfg.registration.city}}",
+    
+"state" : "{{cfg.registration.state}}",
+    
+"zip" : "{{cfg.registration.zip}}",
+    
+"country" : "{{cfg.registration.country}}"
+
+}
