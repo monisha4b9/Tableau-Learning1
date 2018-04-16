@@ -1,0 +1,134 @@
+version=17
+
+
+
+
+[registration]
+
+first_name="Monisha"
+
+last_name="Yartha"
+
+email="myartha@ford.com"
+
+company="Ford Motor Company"
+
+title="Analytics Engineer"
+
+department="Consulting"
+
+industry="Software"
+
+phone="513-801-8282"
+
+city="Allen Park"
+
+state="MI"
+
+zip="48101"
+
+country="United States"
+
+
+
+
+
+[admin]
+
+username="admin"
+
+password="admin123"
+
+friendly="Tableau Admin"
+
+
+
+[runas]
+
+username="NT AUTHORITY\\NetworkService"
+
+# password=""
+
+
+
+
+[wgserver]
+
+authenticate="local"
+
+# AD Here
+
+[gateway]
+port=80 	
+# worker.gateway.port
+hold="true" 	
+# install.firewall.gatewayhold
+
+
+
+
+
+[component]
+
+samples="true"	
+# install.component.samples
+
+[sql]
+ignore_initial="true"	
+# vizqlserver.initialsql.disabled
+
+
+
+
+[smtp]
+
+# setup="true"
+server="apprl.azell.com"
+
+from_addres="tabmail@ford.com"
+
+target_addresses="BI_TABLEAU_ADMIN_ALERTS@bulkmail.ford.com"
+
+
+
+
+[alerts]
+
+# setup="true"
+enabled="true"
+smtp_enabled="true"
+
+
+
+[disk]
+
+# setup="true"
+
+record_history_enabled="true"
+
+email_enabled="true"
+
+warning_percent=20
+
+critical_percent=10
+email_interval_min=120
+
+
+
+
+[ssl]
+
+# setup="true"
+
+enabled=""
+
+cert=""
+
+key=""
+
+chain=""
+
+client_certificate_login=""
+
+cacert=""
+
